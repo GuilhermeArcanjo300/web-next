@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.view-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+
+    .logo {
+        border: 4px solid #f88f87;
+        padding: 40px 20px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 30vw;
+        }
+    }
+}
+
+.view-principal{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
