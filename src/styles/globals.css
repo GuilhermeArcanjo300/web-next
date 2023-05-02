@@ -34,7 +34,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
@@ -43,10 +43,10 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #f88f87;
+  background: #BA2C73;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #F7C59F;;
+  background: #39002e;;
 }

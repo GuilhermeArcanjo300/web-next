@@ -27,5 +27,12 @@
 .view-principal{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(201, 201, 201);
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(248,143,135,1) 57%);
+}
+
+.view-secundary{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f88f87;
 }

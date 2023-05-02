@@ -18,6 +18,9 @@ export default function Home() {
       <div className={styled['view-principal']}>
         <Navbar/>
       </div>
+      <div className={styled['view-secundary']}>
+        <span>Camila</span>
+      </div>
     </main>
   )
 }
