@@ -4,6 +4,7 @@ import Logo from '@/image/logo.png'
 
 import styled from '@/styles/style.module.scss'
 import Navbar from '@/components/Navbar'
+import Carousel from '@/components/Carousel'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +18,11 @@ export default function Home() {
       </div>
       <div className={styled['view-principal']}>
         <Navbar/>
+        <Carousel />
       </div>
-      <div className={styled['view-secundary']}>
-        <span>Camila</span>
-      </div>
+      {/* <div className={styled['view-secundary']}>
+        
+      </div> */}
     </main>
   )
 }
